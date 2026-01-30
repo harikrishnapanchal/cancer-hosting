@@ -1,0 +1,1 @@
+Flask==2.3.3 redis==5.0.1 gunicorn==21.2.0
