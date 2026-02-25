@@ -9,9 +9,9 @@ app = Flask(__name__)
 app.config['MAX_CONTENT_LENGTH'] = 32 * 1024 * 1024 
 
 # --- Redis Configuration ---
-REDIS_HOST = 'redis-10394.c62.us-east-1-4.ec2.cloud.redislabs.com'
-REDIS_PORT = 10394
-REDIS_PASS = 'DcIBnyFIEevH36YawnPButjOrS98WAd7'
+REDIS_HOST = 'redis-19667.c98.us-east-1-4.ec2.cloud.redislabs.com'
+REDIS_PORT = 19667
+REDIS_PASS = '2Kh7QBu4ut2Hs7Ll3aaqR4vQRszy3Z6Y'
 r = redis.Redis(host=REDIS_HOST, port=REDIS_PORT, password=REDIS_PASS)
 
 INDEX_HTML = r'''
